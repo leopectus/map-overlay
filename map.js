@@ -3,7 +3,7 @@ let apiKey = 'gu2xI9YN1IE6pyN2NXUWHy-cilUtvePc9tKShlNwCY0';
 
 // Step 1: set up a basic map
 let platform = new H.service.Platform({
-  apikey: 'apiKey'
+  apikey: apiKey
 });
 let defaultLayers = platform.createDefaultLayers();
 
